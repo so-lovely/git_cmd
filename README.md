@@ -10,6 +10,14 @@ git init:[Optional]
 git add -A
 git commit -m "[message]"
 git push
+--------------------------------------------
+echo "# test_repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/so-lovely/test_repo.git
+git push -u origin main
 ```
 
 ## At existing repository
