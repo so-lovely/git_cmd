@@ -36,6 +36,8 @@ experiment.ipynb
 .gitignore
 src[dir]
 pyproject.toml
+requirements.txt
+Outline[dir]
 ```
 
 ## Make sure you should exec
